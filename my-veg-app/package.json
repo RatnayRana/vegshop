@@ -5,7 +5,13 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+<<<<<<< HEAD
     "start": "next start"
+=======
+    "start": "next start",
+    "lint": "next lint",
+    "vercel-build": "npm run prepare && next build"
+>>>>>>> 3448689038f8ef77dc020bc10f94677ad31781ce
 
   },
   "dependencies": {
